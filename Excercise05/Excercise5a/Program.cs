@@ -10,6 +10,17 @@ namespace Excercise5a
     {
         static void Main(string[] args)
         {
+            Print_a_2_z_v1();
+        }
+
+        public static void Print_a_2_z_v1()
+        {
+            for (char c ='a'; c <= 'z';c++ )
+            {
+                Console.WriteLine (c);
+
+
+            }
         }
     }
 }
